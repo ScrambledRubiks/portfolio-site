@@ -92,10 +92,10 @@ p {
     position: absolute;
     z-index: 0;
     color: rgb(224, 224, 226);
-    background-color: rgba(0, 0, 0, 0.45);
-    width:1000px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width:50%;
     transform: translate(0, 0);
-
+    border: solid 2px white;
     padding:30px;
     border-radius: 40px;
     margin-left:50px;
@@ -109,7 +109,7 @@ p {
 }
 .bufferBox {
     aspect-ratio: 16/9;
-    width:50%;
+    width:20%;
 }
 
 .start {
@@ -144,6 +144,46 @@ p {
     border-radius: 60px;
 }
 
+.aiSection {
+    display: flex;
+    align-items: center;
+    .text {
+        flex-direction: column;
+        font-size: 20px;
+        width:40%;
+        
+    }
+}
+.neuralNet {
+    aspect-ratio: 6/4;
+    height:350px;
+    border: dashed 15px rgb(255, 165, 255) ;
+    border-radius: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.aiParagraph {
+width:50%;
+}
+
+
 .bufferBelowVideo {
-    
+    width:70%;
+    aspect-ratio: 16/9;
+}
+.footer {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.copyright {
+    font-size:15px;
 }
