@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Noto%20Serif&display=swap');
+    .bg {
+      
+    background-repeat: repeat;
+     background-image: url("https://scrambledrubiks.neocities.org/background-14.png");
+
+    }
+    .card {
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        image-rendering: pixelated;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+    .thing {
+  width:80%;
+  color: black;
+  border: 8px solid black;
+  margin: auto;
+  background-color: white;
+  background-image: url("https://scrambledrubiks.neocities.org/thing-bg.png");
+  background-size: 7px;
+  font-size: 14px;
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 0px;
+  border-image: url("https://scrambledrubiks.neocities.org/box-bg.png") 9;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+    }
+    .header {
+     background-image: url("https://scrambledrubiks.neocities.org/menu_0.png");
+     background-repeat: repeat-x;
+     transform: translate(15%, -1px) scale(1.3);
+     width:700px;
+     
+    }
+  .aboutHeader {
+    font-size:24px;
+  }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #430000; 
+}
+
+.emblem {
+ background-image: url("https://scrambledrubiks.neocities.org/header-background.png");
+ background-color: #0c2e00;
+ background-size: 270px;
+ height: 130px;
+ padding-bottom: 0px;
+ text-align: center;
+ font-size: 30px;
+ 
+}
+.headerBG {
+    transform:scale(1.3) translate(0px, 10px);
+}
+.title {
+  transform:translate(36%, -110%)  scale(0.65);  
+  position:absolute;
+  color: white;
+  z-index: 5;
+  border-image: url("https://scrambledrubiks.neocities.org/box-bg.png") 30 / 1 / 0 stretch;
+  border: 10px;
+}
+
+.footer {
+ text-align:center; 
+}
+.body {
+     box-sizing: border-box;
+    padding: 5px; 
+    font-size: 18px;
+}
+ 
+.guestbook {
+  transform: translate(-200px, -100px) scale(0.35);
+}
+.bodyTitle {
+ font-size: 30px; 
+ text-align: center;
+}
+.menuPhoto {
+  font-size:10px;
+  text-align: center;
+}
+.linkToDownload {
+  font-size: 20px;
+  text-align: center;
+}
+img {
+  object-fit: cover;
+  max-width:910px;
+}
+.allImages {
+  text-align: center;
+ transform: translate(-6px, 0px);
+ image-rendering: auto;
+ max-width:910px;
+}
+.updateLog {
+  width:810px;
+  height:110px;
+  overflow:auto;
+  font-size:14px;
+  border: 7px solid black;
+  border-image: url("https://scrambledrubiks.neocities.org/box-bg.png") 9;
+  
+}
+.box {
+   text-align:center; 
+   background-size: 20px 60px;
+   background-repeat:no-repeat;
+   font-size:24px;
+}
+.triangle {
+  width: 300px;
+  height: auto;
+ image-rendering: auto;
+}
+.subheader1 {
+  font-size:17px;
+}
+.properties {
+  font-family: 'Courier Prime', monospace; color:blue; display:inline;
+  }
+.code {
+  font-family: 'Courier Prime', monospace; background-color:#1d1f21; color:#d8d5ee; display:inline;
+  }
+
+.navBox {
+    width: 250px;
+    height: 130px;
+    overflow: auto;
+    border: 6px solid black;
+    border-image: url(https://scrambledrubiks.neocities.org/box-bg.png) 9;
+    font-size: 12px;
+    position: absolute;
+    transform: translate(415px, -180px);
+}
+.video {
+  max-width:700px;
+}
