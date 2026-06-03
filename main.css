@@ -71,7 +71,12 @@ body {
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
-
+.mainText {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
 h1 {
     font-family: 'Noto Serif';
     font-style: normal;
@@ -81,6 +86,10 @@ h1 {
 p {
      font-family: 'Noto Serif';
     font-style: normal;
+}
+
+a {
+    color: black;
 }
 
 .openingText {
@@ -144,7 +153,7 @@ p {
     border-radius: 60px;
 }
 
-.aiSection {
+.textAndImage {
     display: flex;
     align-items: center;
     .text {
@@ -181,6 +190,7 @@ width:50%;
     background-color: rgba(0, 0, 0, 0.65);
     color: rgb(255, 255, 255);
     border: solid 2px rgb(255, 255, 255);
+    border-bottom: 0px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
