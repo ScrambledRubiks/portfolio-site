@@ -76,6 +76,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    padding:30px;
 }
 h1 {
     font-family: 'Noto Serif';
@@ -201,6 +202,24 @@ width:50%;
     background-image:linear-gradient(to top right, rgb(255, 198, 198), white);
     border-radius: 40px;
 }
+
+
+.projectText {
+    width:50%;
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        font-size:25px;
+    }
+}
+.projectImage {
+    width:20%;
+    margin:50px;
+    border: dashed 15px rgb(255, 153, 0) ;
+    border-radius: 40px;
+}
+
 
 .footer {
     font-family: 'Noto Serif';
