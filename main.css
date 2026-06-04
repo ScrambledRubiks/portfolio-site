@@ -179,6 +179,29 @@ width:50%;
     width:70%;
     aspect-ratio: 16/9;
 }
+
+.gradient1 {
+    padding:40px;
+    background-image:linear-gradient(to top right, rgb(177, 164, 255), white);
+    border-radius: 40px;
+}
+.gradient2 {
+    padding:40px;
+    background-image:linear-gradient(to bottom right, rgb(255, 205, 164), white);
+    border-radius: 40px;
+}
+.gradient3 {
+    padding:40px;
+    background-image:linear-gradient(to top right, rgb(221, 156, 212), white);
+    border-radius: 40px;
+}
+
+.gradient4 {
+    padding:40px;
+    background-image:linear-gradient(to top right, rgb(255, 198, 198), white);
+    border-radius: 40px;
+}
+
 .footer {
     font-family: 'Noto Serif';
     font-style: normal;

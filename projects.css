@@ -19,7 +19,7 @@
 }
 .introductionText {
     width: 50%;
-    padding: 100px;
+    padding: 50px;
 }
 .projectText {
     width:50%;
@@ -34,4 +34,7 @@
     width:20%;
     margin:50px;
     border: dashed 15px rgb(255, 153, 0) ;
+}
+.dsImage {
+    border-color: rgb(241, 45, 45);
 }
