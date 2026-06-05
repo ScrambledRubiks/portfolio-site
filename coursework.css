@@ -21,3 +21,9 @@
     border-radius: 100px;
     background-color: rgb(255, 255, 255);
 }
+.robotImage {
+    border-color: rgb(71, 71, 255);
+}
+.micromouseImage {
+    border-color: rgb(241, 45, 45);
+}
